@@ -11,7 +11,7 @@ query = '''CREATE TABLE hotel
   id INT UNIQUE NOT NULL, 
   name VARCHAR(20) NOT NULL 
 )'''
-connection.execute()
+connection.execute(query)
 
 # insert query to insert food details in 
 # the above table
