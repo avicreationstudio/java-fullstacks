@@ -21,7 +21,7 @@
 1. Service
 1. Controller
 
-### `entity/Product.java`
+### `Entity/Product.java`
 
 ```java
 package com.SimpleProject.back_end_api.entity;
@@ -45,7 +45,7 @@ public class Product {
 }
 ```
 
-### `repository/ProductRepository.java`
+### `Repository/ProductRepository.java`
 
 ```java
 package com.SimpleProject.back_end_api.respository;
@@ -59,7 +59,7 @@ public interface ProductRepository extends JpaRepository<Product, Integer> {
 }
 ```
 
-### `service/ProductService.java`
+### `Service/ProductService.java`
 
 ```java
 package com.SimpleProject.back_end_api.service;
@@ -110,7 +110,7 @@ public class ProductService {
 
 ```
 
-### `controller/ProductController`
+### `Controller/ProductController`
 
 ```java
 package com.SimpleProject.back_end_api.controller;
